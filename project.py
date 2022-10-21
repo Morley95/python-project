@@ -10,7 +10,7 @@ while True:
         square_height = float(input("Please input height number: "))
         square_area = square_base * square_height
         shape_counter += 1
-        print("Your square area is: " + str(square_area))
+        print("Your square / rectangle area is: " + str(square_area))
 
     elif user_input == "triangle":
         triangle_base = float(input("Please input base number: "))
